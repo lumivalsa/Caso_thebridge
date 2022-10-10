@@ -1,0 +1,5 @@
+Pandas
+Numeritos
+Flask
+sklearn
+nltk
