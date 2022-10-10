@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>European Soccer</title>
+    <meta name="description" content="Twitter analysis">
+    <meta name="keywords" content="Twitter analysis">
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0px;
+            background-image: url('/Users/luismi/Documents/Proyectos/Twitter_scrap/Caso_thebridge/img/Twitter-logo.svg.jpg');
+            background-size: cover;
+            background-size: cover;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        } 
+        .form {
+            display: flex;
+            flex-direction: column;
+            padding: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+</body>
+    <h1 style="color:white;font-family:verdana;font-weight: 400;letter-spacing: 1px;">Sentiment analysis</h1>
+
+    <div class="forms">
+        <div class="form">
+            <h2 style="color:white;font-family:verdana;font-size: 18px;font-weight: 300;">Enter your text</h2>
+            <form method="get" action="/predict" autocomplete="on" >
+                <textarea type="text" name="text" class="longInput" cols="30" rows="10" style="padding-left:10px;padding-right:10px;border-width:0px;margin-bottom:10px;width:300px;height:150px"></textarea><br/>
+                <button type="submit" style="font-family:verdana;background-color:white;border-width:0;padding-top:5px;padding-bottom:5px;padding-left:20px;padding-right:20px;">Submit</bsutton>
+            </form>
+        </div>
+    </div>
+
+</html>
